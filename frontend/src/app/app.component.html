@@ -1,0 +1,22 @@
+<main class="relative min-h-screen bg-black overflow-hidden">
+  <!-- Radial glow -->
+  <div
+    class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(255,255,255,0.12)_0%,_rgba(0,0,0,0.88)_58%,_#000_100%)]"
+  ></div>
+
+  <!-- Columna de página -->
+  <div class="relative z-10 flex min-h-screen flex-col">
+    <!-- Topbar -->
+    <app-topbar></app-topbar>
+
+    <!-- Contenido (crece) -->
+    <div class="flex-1">
+      <router-outlet></router-outlet>
+    </div>
+
+    <!-- Footer siempre al fondo -->
+    <div class="mt-auto">
+      <app-footer></app-footer>
+    </div>
+  </div>
+</main>

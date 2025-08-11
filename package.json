@@ -1,0 +1,13 @@
+{
+  "name": "thoth",
+  "version": "1.0.0",
+  "description": "Thoth is a web app that uses AI to recommend books based on each reader’s profile, tastes, and reading history. Built with Angular, Node.js, and AWS, it offers secure login, dynamic reading lists, and a clean, responsive UI to help users effortlessly discover their next favorite book.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true"
+}
